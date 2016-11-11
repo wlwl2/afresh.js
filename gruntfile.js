@@ -5,8 +5,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     sass: {
       dev: {
-        src: ['sass/*.scss'],
-        dest: 'css/style.css',
+        src: ['sass/pop-up.scss'],
+        dest: 'css/pop-up.css',
       },
     },
     watch: {
@@ -23,6 +23,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['sass']);
 
 };
