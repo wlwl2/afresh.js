@@ -1,7 +1,7 @@
-# pop-up template Version 1.0.0
+# afresh.js
 
-A template that can be used to make pop ups for websites.
+Templates for common web components written in ECMAScript (below 6).
 
-Version 1.0.0
+## Version 1.0.0
 
-Todo: reproducibility! This code is horrible for that!
+1. Added pop-up template.

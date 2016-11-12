@@ -1,13 +1,14 @@
 {
-  "name": "pop-up-template",
+  "name": "afresh.js",
   "version": "1.0.0",
-  "description": "pop-up template",
-  "main": "gruntfile.js",
+  "description": "Templates for common web components written in ECMAScript (below 6).",
+  "main": "index.js",
   "keywords": [
-    "pop",
-    "up",
-    "pop-up",
-    "template"
+    "afresh",
+    "js",
+    "template",
+    "web",
+    "components"
   ],
   "author": "William Lim",
   "license": "MIT",
