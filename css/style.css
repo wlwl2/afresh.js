@@ -24,4 +24,28 @@
       text-decoration: none;
       display: inline-block; }
 
-/*# sourceMappingURL=pop-up.css.map */
+.table {
+  display: table; }
+
+.table-head {
+  border: thin solid black; }
+
+.table-body {
+  border: thin solid black; }
+
+.table-row {
+  display: table-row; }
+
+.table-header {
+  display: table-cell; }
+
+.table-data {
+  display: table-cell; }
+
+thead {
+  border: thin solid black; }
+
+tbody {
+  border: thin solid black; }
+
+/*# sourceMappingURL=style.css.map */
