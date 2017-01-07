@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="">
+  </head>
+  <body>
+
+
+    <script>
+    fu
+      var indices = [];
+      var array = ['a', 'b', 'a', 'c', 'a', 'd'];
+      var element = 'a';
+      var idx = array.indexOf(element);
+      while (idx != -1) {
+        indices.push(idx);
+        idx = array.indexOf(element, idx + 1);
+      }
+      console.log(indices);
+      // [0, 2, 4]
+    </script>
+  </body>
+</html>
