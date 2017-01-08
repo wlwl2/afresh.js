@@ -4,24 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="icon" type="image/png" href="">
   </head>
   <body>
 
 
     <script>
-    fu
-      var indices = [];
-      var array = ['a', 'b', 'a', 'c', 'a', 'd'];
-      var element = 'a';
-      var idx = array.indexOf(element);
-      while (idx != -1) {
-        indices.push(idx);
-        idx = array.indexOf(element, idx + 1);
-      }
-      console.log(indices);
-      // [0, 2, 4]
+      // stringIndices (array, string)
+      // Find a string's indices inside an array.
+      // Returns an array of indices indicating all 
+      // of the positions of the string in the original array.
+      function stringIndices(array, string) {
+        var indices = [];
+        var index = array.indexOf(string);
+        while (index != -1) {
+          indices.push(index);
+          index = array.indexOf(string, index + 1);
+        }
+        return indices;
+      };
+
+      var array = [1,2,3]
+      console.log(stringIndices(array, 2));
+
     </script>
   </body>
 </html>
