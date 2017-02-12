@@ -7,9 +7,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'sass',
+          cwd: 'public/sass',
           src: ['style.scss'],
-          dest: 'css',
+          dest: 'public/css',
           ext: '.css',
           extDot: 'last'
         }]
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         // We watch and compile sass files as normal but don't live reload here
-        files: ['sass/*.scss'],
+        files: ['public/sass/*.scss'],
         tasks: ['sass'],
       }
     }
@@ -29,6 +29,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['watch']);
 
 };

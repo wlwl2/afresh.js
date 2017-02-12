@@ -48,4 +48,22 @@ thead {
 tbody {
   border: thin solid black; }
 
+.custom-checkbox {
+  display: table; }
+  .custom-checkbox .custom-checkbox__hidden-checkbox {
+    display: none; }
+  .custom-checkbox .custom-checkbox__click-image {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0; }
+  .custom-checkbox img {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px; }
+  .custom-checkbox .custom-checkbox__hidden-input {
+    display: none; }
+  .custom-checkbox label {
+    display: table-cell;
+    vertical-align: middle; }
+
 /*# sourceMappingURL=style.css.map */
