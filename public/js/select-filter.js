@@ -206,11 +206,9 @@ var statesSelectMenu = document.querySelector(".states-select-menu");
 for (var i = 0; i < states.length; i++) {
   function createStateOption (index) {
     var stateOption = document.createElement("option");
-    stateOption.setAttribute('value', states[i].abbreviation);
-    stateOption.textContent = states[i].name;
+    stateOption.setAttribute('value', states[index].abbreviation);
+    stateOption.textContent = states[index].name;
     statesSelectMenu.appendChild(stateOption);
   }
   createStateOption(i);
 }
-
-console.log(states.length);
