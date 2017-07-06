@@ -1,14 +1,12 @@
 {
-  "name": "afresh.js",
-  "version": "1.0.0",
+  "name": "web-component-templates",
+  "version": "0.1.0",
   "description": "Templates for common web components written in ECMAScript (below 6).",
   "main": "index.js",
   "keywords": [
-    "afresh",
-    "js",
-    "template",
     "web",
-    "components"
+    "component",
+    "template"
   ],
   "author": "William Lim",
   "license": "MIT",
