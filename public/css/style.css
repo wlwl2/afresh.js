@@ -66,4 +66,25 @@ tbody {
     display: table-cell;
     vertical-align: middle; }
 
+button {
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 1px 2px 5px grey;
+  border-style: none;
+  border-width: 1px; }
+
+.gradient-one {
+  background: linear-gradient(110deg, #b38248, #c13a2c); }
+
+.gradient-two {
+  background: linear-gradient(110deg, #5565d5, #74017f); }
+
+.gradient-three {
+  background: linear-gradient(110deg, #44a893, #207f99); }
+
+.gradient-four {
+  background: linear-gradient(110deg, #444950, #60656f); }
+
 /*# sourceMappingURL=style.css.map */
