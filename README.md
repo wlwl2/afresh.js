@@ -1,6 +1,8 @@
 # web-component-templates
 Templates for common web components written in ECMAScript (below 6).
 
+https://github.com/wlwl2/web-component-templates
+
 ## Development
 
 Run `npm i` then `grunt sass` or `grunt watch`.
